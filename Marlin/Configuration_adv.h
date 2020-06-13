@@ -2787,7 +2787,6 @@
    *  - PERCENT (S0 - S100)
    *  - RPM     (S0 - S50000)  Best for use with a spindle
    */
-  #define CUTTER_POWER_UNIT PWM255
   #define CUTTER_POWER_DISPLAY PWM255
 
   /**
