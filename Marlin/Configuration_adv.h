@@ -683,15 +683,15 @@
    * differs, a mode set eeprom write will be completed at initialization.
    * Use the option below to force an eeprom write to a V3.1 probe regardless.
    */
-  //#define BLTOUCH_SET_5V_MODE
+  #define BLTOUCH_SET_5V_MODE //RAY
 
   /**
    * Safety: Activate if connecting a probe with an unknown voltage mode.
    * V3.0: Set a probe into mode selected above at Marlin startup. Required for 5V mode on 3.0
    * V3.1: Force a probe with unknown mode into selected mode at Marlin startup ( = Probe EEPROM write )
    * To preserve the life of the probe, use this once then turn it off and re-flash.
-   */
-  //#define BLTOUCH_FORCE_MODE_SET
+  **/
+  #define BLTOUCH_FORCE_MODE_SET
 
   /**
    * Use "HIGH SPEED" mode for probing.
@@ -3394,7 +3394,7 @@
 //
 // M43 - display pin status, toggle pins, watch pins, watch endstops & toggle LED, test servo probe
 //
-//#define PINS_DEBUGGING
+#define PINS_DEBUGGING //RAY
 
 // Enable Marlin dev mode which adds some special commands
 //#define MARLIN_DEV_MODE
