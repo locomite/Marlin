@@ -505,9 +505,15 @@
     #define DEFAULT_Ki_LIST {   1.35,   1.35 }
     #define DEFAULT_Kd_LIST {  94.86,  94.86 }
   #else
-    #define DEFAULT_Kp  22.59
-    #define DEFAULT_Ki   1.35
-    #define DEFAULT_Kd  94.86
+    // new screw in temp sensor
+    #define DEFAULT_Kp  34.33
+    #define DEFAULT_Ki   2.53
+    #define DEFAULT_Kd 116.52
+
+    // old air gap temp sensor
+    //#define DEFAULT_Kp  22.59
+    //#define DEFAULT_Ki   1.35
+    //#define DEFAULT_Kd  94.86
   #endif
 #endif // PIDTEMP
 
